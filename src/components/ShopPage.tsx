@@ -94,7 +94,7 @@ const ShopPage: React.FC = () => {
               <p className="text-lg font-semibold">{item.price}</p>
             </CardContent>
             <CardFooter>
-              <Button variant="primary" size="lg" className="w-full bg-green-500" onClick={addToCart}>
+              <Button variant="default" size="lg" className="w-full bg-green-500" onClick={addToCart}>
                 Add to Cart
               </Button>
             </CardFooter>
@@ -115,11 +115,8 @@ const ShopPage: React.FC = () => {
               <p className="text-lg font-semibold">{item.price}</p>
             </CardContent>
             <CardFooter>
-			<Button variant="primary" size="sm" className="bg-red-500" onClick={removeFromCart}>
-                -
-              </Button>
-              <Button variant="primary" size="lg" className="bg-green-500" onClick={addToCart}>
-                +
+            <Button variant="default" size="lg" className="w-full bg-green-500" onClick={addToCart}>
+                Add to Cart
               </Button>
             </CardFooter>
           </Card>

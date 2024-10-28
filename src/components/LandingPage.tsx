@@ -55,7 +55,7 @@ const LandingPage: React.FC = () => {
             From seasonal flowers to house-plants to herbs, we got them all!
           </p>
           <Button
-            variant="primary"
+            variant="default"
             size="lg"
             className="bg-green-700"
             onClick={handleShopNowClick}
