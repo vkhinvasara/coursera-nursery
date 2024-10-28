@@ -72,7 +72,7 @@ const items = [
 ];
 
 const ShopPage: React.FC = () => {
-  const { addToCart, removeFromCart } = useCart();
+  const { addToCart} = useCart();
 
   const airPurifyingPlants = items.filter(item => item.category === 'Air Purifying');
   const aromaticPlants = items.filter(item => item.category === 'Aromatic');
