@@ -19,3 +19,5 @@ read -p "Enter the time period in years: " time
 
 # Calculate and display simple interest
 calculate_simple_interest $principal $rate $time
+
+#new comment added
